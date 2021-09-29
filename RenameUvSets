@@ -1,0 +1,6 @@
+string $eachElement;
+string $sel[] =`ls -sl`;
+
+for	($eachElement in $sel)
+
+	polyUVSet -rename -currentUVSet -newUVSet ("map2") $eachElement;
